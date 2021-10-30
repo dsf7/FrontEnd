@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+body {
+
+    background-color: #131313;
+}
+
+h1 {
+
+    color: white;
+    font-family: 'Zen Kaku Gothic Antique', Arial, sans-serif;
+    padding: 10px;
+}
+
+.media-picture {
+
+    width: 100%;
+    height: 400px;
+    background-image: url("https://stedwardedge.com/wp-content/uploads/2018/03/Winter-Movie-Review.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.review-score {
+
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+
+    color: steelblue;
+    padding: 20px;
+}
+
+p {
+
+    color: #bdbdbd;
+    font-family: 'Zen Kaku Gothic Antique', Arial, sans-serif;
+    padding: 20px;
+}
+
+.link {
+    color: yellow;
+    font-size: 20px;
+    padding: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0, 0, 0, 0.829);
+}
