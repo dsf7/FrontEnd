@@ -1,0 +1,65 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 2000px;
+}
+
+.page-title {
+
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    z-index: 100;
+}
+
+header {
+    top: 40px;
+    background-color: gray;
+    padding: 12px 32px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.square {
+
+    width: 400px;
+    height: 400px;
+    margin-bottom: 12px;
+}
+
+.first-square {
+
+    background-color: green;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+.second-square {
+
+    background-color: violet;
+    position: absolute; 
+    /* o absolute é relativo a janela, distancia dos lados */
+    left: 0;
+    bottom: 200px;
+    /* relative mantém referncia da posicão que ele deveria estar, relativo a ele mesmo. sobrepondo outros elementos, diferente de margem  */
+    /* top: 2px;
+    left: 50px; */
+}
+
+.third-square {
+
+    background-color: goldenrod;
+    position: fixed;
+
+}
