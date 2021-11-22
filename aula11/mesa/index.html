@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doces Do Céu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <img width="380px" src="https://scontent.fcgh9-1.fna.fbcdn.net/v/t1.6435-9/30726272_438028483320472_1232080612320346112_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHbIaaQo9zfcXoVGi5uWi1I5B_GJ0-94QnkH8YnT73hCThUzEYK3bU31Dei4XbTjgQ&_nc_ohc=YCWbGMT9Bj0AX-cVnBc&_nc_ht=scontent.fcgh9-1.fna&oh=b12a3928fe67aaf857a61e96d2794b26&oe=61B9D49F" alt="logo">
+    </header>
+
+    <main>
+
+        <form action="" method="">
+
+        <div class="titulo">    
+            <h1>Monte o seu Doce</h1>
+        </div>
+
+        <fieldset>
+            <legend><b>Dados do Cliente</b></legend>
+        <div>
+            <label for="nomeUsuario">Nome de Usuário</label>
+            <input type="text" class="nome-usuario" name="nomeUsuario" id="nomeUsuario" placeholder="">
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+
+        <div>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone">
+        </div>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend><b>Dados do seu doce</b></legend>
+
+        <label for="cerveja">Tipo de doce desejado</label>
+        <select name="cerveja" id="cerveja">
+            <option value=""></option>
+            <option value="1">Lager</option>
+            <option value="2">Pilsen</option>
+            <option value="3">Sour</option>
+
+        </select>
+
+        <div class="nivel">
+            <p>Quão Beberrão você é?</p>
+            <input type="radio" name="beberrao" id="muito" value="muitoBeberrao" checked>
+            <label for="muito">Muito</label>
+
+            <input type="radio" name="beberrao" id="pouco" value="poucoBeberrao">
+            <label for="pouco">Pouco</label>
+
+        </div>
+
+        <div class="nivel">
+            <p>Aceita receber nossa newsletter?</p>
+            <input type="checkbox" name="aceite" id="sim" value="sim">
+            <label for="sim">Sim, por favor</label>
+
+            <input type="checkbox" name="aceite" id="nao" value="nao">
+            <label for="pouco">Não, Obrigado</label>
+
+        </div>
+
+        <div class="newsletter">
+            <label for="aniversario">Data de Nascimento</label>
+            <input type="date" name="aniversario" id="aniversario" min="1900-01-01" max="2003-01-01">
+        </div>
+
+        <div>
+            <label for="city">Cidade</label>
+
+            <select name="city" id="city">
+                <optgroup label="SP">
+
+                    <option value="1">São Paulo</option>
+                    <option value="2">Vinhedo</option>
+                    <option value="3">Campinas</option>
+                </optgroup>
+
+                <optgroup label="RJ">
+                    <option value="1">Rio de Janeiro</option>
+                    <option value="2">Niterói</option>
+                    <option value="3">Parati</option>
+
+
+                </optgroup>
+
+
+
+
+            </select>
+
+        </div>
+
+    </fieldset>
+
+
+
+
+
+        <button type="reset">Apagar</button>
+
+        <button type="submit">Enviar Formulário</button>
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+    </main>
+
+
+</body>
+</html>

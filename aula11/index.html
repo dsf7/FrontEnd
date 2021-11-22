@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <img width="380px" src="beer.jpg" alt="logo">
+    </header>
+
+    <main>
+
+        <form action="" method="">
+
+        <div class="titulo">    
+
+            <h1>Entre para o Clube</h1>
+            <h2>Corrida & Cerveja</h2>
+        </div>
+
+        <fieldset>
+            <legend><b>Dados do Usuário</b></legend>
+        <div>
+            <label for="nomeUsuario">Nome de Usuário</label>
+            <input type="text" class="nome-usuario" name="nomeUsuario" id="nomeUsuario" placeholder="">
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+        </div>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend><b>Dados do seu copo</b></legend>
+
+        <label for="cerveja">Tipo de cerveja favorito</label>
+        <select name="cerveja" id="cerveja">
+            <option value=""></option>
+            <option value="1">Lager</option>
+            <option value="2">Pilsen</option>
+            <option value="3">Sour</option>
+
+        </select>
+
+        <div class="nivel">
+            <p>Quão Beberrão você é?</p>
+            <input type="radio" name="beberrao" id="muito" value="muitoBeberrao" checked>
+            <label for="muito">Muito</label>
+
+            <input type="radio" name="beberrao" id="pouco" value="poucoBeberrao">
+            <label for="pouco">Pouco</label>
+
+        </div>
+
+        <div class="nivel">
+            <p>Aceita receber nossa newsletter?</p>
+            <input type="checkbox" name="aceite" id="sim" value="sim">
+            <label for="sim">Sim, por favor</label>
+
+            <input type="checkbox" name="aceite" id="nao" value="nao">
+            <label for="pouco">Não, Obrigado</label>
+
+        </div>
+
+        <div class="newsletter">
+            <label for="aniversario">Data de Nascimento</label>
+            <input type="date" name="aniversario" id="aniversario" min="1900-01-01" max="2003-01-01">
+        </div>
+
+        <div>
+            <label for="city">Cidade</label>
+
+            <select name="city" id="city">
+                <optgroup label="SP">
+
+                    <option value="1">São Paulo</option>
+                    <option value="2">Vinhedo</option>
+                    <option value="3">Campinas</option>
+                </optgroup>
+
+                <optgroup label="RJ">
+                    <option value="1">Rio de Janeiro</option>
+                    <option value="2">Niterói</option>
+                    <option value="3">Parati</option>
+
+
+                </optgroup>
+
+
+
+
+            </select>
+
+        </div>
+
+    </fieldset>
+
+
+
+
+
+        <button type="reset">Apagar</button>
+
+        <button type="submit">Enviar Formulário</button>
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+    </main>
+
+
+</body>
+</html>

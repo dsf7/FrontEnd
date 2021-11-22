@@ -1,0 +1,80 @@
+* { 
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url("https://www.eurodicas.com.br/wp-content/uploads/2018/09/doces-tipicos-da-franca-1200x900.jpg");;
+    background-repeat: repeat;
+    background-color: rgba(245, 245, 245, 0.247);
+    background-size: 1800px;
+}
+
+form {
+    background-color: whitesmoke;
+    width: 400px;
+    margin-left: 20% auto;
+    padding: 24px;
+    border-radius: 30px;
+}
+
+
+header {
+    margin-left: 19% auto;
+    padding: 20px;
+    width: 100px;
+    align-content: center;
+}
+
+
+.nivel {
+    display: inline;
+}
+
+.newsletter {
+    display: inline;
+}
+
+label, button {
+
+    margin-top: 5px;
+}
+
+label, input, textarea, button {
+
+    display: inline;
+}
+
+label, input {
+
+    display: block;
+}
+
+.titulo {
+    width: 350px;
+    text-align: center;
+    background-color: orange;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    /* border: none; */
+    margin-bottom: 20px;
+
+}
+
+legend {
+
+    font-size: 24px;
+    margin-bottom: 10px;
+}

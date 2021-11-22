@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+label {
+
+    font-size: 16px;
+    padding: 20px;
+}
+
+input {
+
+    background-color: black;
+    padding: 6px 12px;
+    border-radius: 12px;
+}
+
+input:focus {
+    background-color: blueviolet;
+    transition: .4s;
+}
+
+.main-button {
+
+    color: whitesmoke;
+    border: none;
+    padding: 12px 24px;
+    background-color: blue;
+    border-radius: 12px;
+    transition: .4s;
+
+}
+.item-active {
+    color: indigo;
+}
+
+
+.main-menu li {
+    color: whitesmoke;
+    background-color: brown;
+    border-radius: 12px;
+    padding: 12px;
+    width: fit-content;
+    margin-bottom: 12px;
+
+}
+
+.main-menu li:nth-child(odd) {
+    background-color: salmon;
+}
+
+/* além de odd e even também é possível colocar 2n, 3n, 4n 2n+4 etc para definir o intervalo */
+
+textarea:hover {
+
+    margin-left: 24px;
+    background-color: #0e0e0e7c;
+    transition: .2s;
+    top: 44px;
+}
+
+textarea:focus {
+
+    background-color: rgba(172, 255, 47, 0.406) ;
+    
+}
+
+.person-checkbox {
+
+    width: 15px;
+    height: 15px;
+    transition: .4s;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+
+.person-checkbox:checked {
+
+    width: 25px;
+    height: 25px;
+}
+
+.main-button:hover {
+
+    background-color: rgb(0, 195, 255);
+    border-radius: 25px;
+
+}
+
+p {
+
+    margin: 12px;
+
+}
+
+
+/* p::before {
+
+    content: "👀";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url("");
+    background-position: center;
+    background-size: contain;
+}
+
+p::after {
+
+    content: "👀";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url("");
+    background-position: center;
+    background-size: contain;
+} */
+
+p::first-line {
+
+    background-color: seagreen;
+}
+
+p::first-letter{
+
+    font-size: 50px;
+}
+
+
+
+h1 {
+    font-size: 32px;
+    padding: 12px;
+    background-color: skyblue;
+    text-align: center;
+}
+
+h1:hover {
+    font-size: 40px;
+    background-color: springgreen;
+}
+
+p {
+    background-color: wheat;
+    display: block;
+}
+
+p::first-line {
+    background-color: tomato;
+}
