@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+
+    padding: 64px 32px;
+}
+
+.main-button {
+
+    color: whitesmoke;
+    background-color: purple;
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    /* para centralizar elemento os dois acima */
+    padding: 24px;
+    font-size: 22px;
+    border-radius: 12px;
+    /* transition-duration: 0.3s;
+    transition-property: padding, background-color, font-size;
+    transition-delay: .2s;
+    -o-transition-timing-function: ease-in-out; */
+    transition: .3s ease-in-out; 
+    /* versão resumida */
+    /* property / duration / timing-function delay 
+    https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions */
+
+
+}
+
+.main-button:hover {
+
+    background-color: rgb(199, 69, 199);
+    /* padding: 32px; */
+    /* font-size: 32px; */
+    /* transform: scale(1.1); */
+    filter: invert();
+    transform: scale(2) skew(-25deg) rotate(360deg) translate(0, 20px);
+    /* translate também move mas sem interferir nos outros objetos; */
+}
+
+p {
+
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.ghost {
+    font-size: 200px;
+    text-align: center;
+    display: block;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+    0% {
+
+        transform: translate(0, -30px);
+        opacity: .25;
+    }
+    50% {
+
+        transform: translate(0, 30px);
+        opacity: 1;
+    }
+    100% {
+
+        transform: translate(0, -30px);
+        opacity: .25;
+    }
+
+    /* from {
+        transform: translate(0, -30px);
+    }
+    to {
+        transform: translate(0, 30px);
+    } */
+
+    
+}
